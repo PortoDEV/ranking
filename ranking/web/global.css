@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display:none;
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+body, input, textarea, button {
+    font: 400 1rem "Arial", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}  
+
+.container2 {
+    top: 50%;
+    left: 50%;
+
+    position: fixed;
+
+    width: 59rem;
+    height: 40rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    transform: translate(-50%,-50%);
+    border-radius: .5rem;
+
+    background: url(assets/background.png);
+    background: url(assets/background.png);
+    box-shadow: 0 0 1em rgba(2, 2, 2, 0.349);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: left 0.3s ease-in;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img{
+    width: 130px;
+}
+
+main{
+    width: 50rem;
+}
+
+table{
+    background-color: none !important ;
+    color: white !important ;
+    border-color: rgba(255, 255, 255, 0.267) !important;
+}
+
+.radiusleft{
+    border-top-left-radius: .2rem;
+}
+
+.radiusright{
+    border-top-right-radius: .2rem;
+}
+
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
